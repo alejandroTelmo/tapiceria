@@ -1,6 +1,14 @@
+.container {
+    display: flex; /*con esto quiero que sea flexible el contenedor....o sea todo */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
 *{
     background-color: #f4f4f4;
 }
+
 
 #contacto{
 background-color: white;
@@ -20,14 +28,15 @@ h3,.colorTitulo1{
     color:white;
 }
 
-.nav{
-    color:orange;
-}
+
 form,input,textarea{
     background-color: white;
 }
 #listaOrdenada{
     font-size: 1.5em;
+}
+#navbarSupportedContent{
+    background-color: orange;
 }
 a ,h4,p{
     color:#260101;

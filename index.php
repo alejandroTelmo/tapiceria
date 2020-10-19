@@ -17,8 +17,10 @@ require_once './Clases/Curso.php';
         </ul>
 
     </div>
+
                            
-     <div class="col-8 text-center"> <h3>Curso integral de tapicería</h3>	
+     <div class="col-8 text-center"> 
+         <h3>Curso integral de tapicería</h3>	
                         Curso básico de tapicería
                         Inscribite al nuevo curso de tapicería básica para arrancar con todo. 				
 
@@ -33,6 +35,8 @@ require_once './Clases/Curso.php';
                     
                     
 </div>
+
+
 	<div class="row">
             <div class="col-md-3"></div>
 		<div class="col-md-9">

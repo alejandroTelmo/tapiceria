@@ -9,7 +9,8 @@
 
         <meta name="description" content="Source code generated using layoutit.com">
         <meta name="author" content="LayoutIt!">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+     
 
         <link href="css/style.css" rel="stylesheet">
 
@@ -21,7 +22,7 @@
         ?>
 
     </head>
-    <body class="rosa">
+    <body>
       
          <div class="container-fluid"> 
              <a href="index.php"> <img src="imagenes/150x150.png"></a>
@@ -30,15 +31,15 @@
                 <div class="col-12 text-center titu"></div>
    
             </div> 
-            <div class="row" >
+            <div class="row naranja" >
                
-                <nav class="navbar navbar-expand-lg">
+                <nav class="naranja navbar navbar-expand-lg">
                     <a class="navbar-brand" href="index.php">Principal</a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
 
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                       <li class="nav-item active">
                           <a class="nav-link" href="cursos.php">Cursos <span class="sr-only">(current)</span></a>
@@ -71,13 +72,7 @@
                       </li>
                       <?php }?>
                     </ul>
-                 
-<!--                    <form class="form-inline">
-                        <input class="form-control mr-sm-2"name="buscadorGeneral" type="text" /> 
-                        <button class="btn naranja" name="submit" type="submit">
-							Buscar
-						</button>
-		    </form>-->
+
 			</div>	
                 </nav>   
             </div>
@@ -86,4 +81,5 @@
                 
                 <div class="col-10 text-center tituloPrincipal"><h1 class="negro" > Escuela de Tapicería</h1></div>
    
-                <div class="col-2"><img src="imagenes/faceTransNaran.png"> <img src="imagenes/marron.png"><img src="imagenes/what.png"></div> </div> 
+                <div class="col-2"><img src="imagenes/faceTransNaran.png"> <img src="imagenes/marron.png"><img src="imagenes/what.png">
+                </div> </div> 
